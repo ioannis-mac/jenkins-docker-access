@@ -1,2 +1,2 @@
 FROM nginx:latest
-RUN sed 's/nginx/ioannis/g' index.html
+RUN sed -i 's/Welcome to nginx/Welcome Ioannis/g' /usr/share/nginx/html/index.html
